@@ -792,6 +792,9 @@ nav li a:hover {
     .showMore img {
         width: 30rem;
     }
+     .gallery button {
+        cursor: pointer;
+    }
 }
 
 @media (orientation: portrait) and (min-width: 1024px) {
@@ -924,6 +927,7 @@ nav li a:hover {
         padding: 1rem;
         font-size: 1.5rem;
         margin: 1rem 0 8rem 2rem;
+        cursor: pointer;
     }
 }
 
@@ -1121,6 +1125,7 @@ nav li a:hover {
         flex-basis: 31%;
         height: 18rem;
         overflow: hidden;
+        cursor: pointer;
     }
 
     .calendar .imgBlog1,
@@ -1155,6 +1160,9 @@ nav li a:hover {
 
     .calendar .add {
         font-size: .9rem;
+    }
+    .blog button {
+        cursor: pointer;
     }
 }
 
